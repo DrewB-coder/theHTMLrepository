@@ -1,0 +1,173 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #4F0259;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border: 2px solid #7FD925;
+    border-radius: 10px;
+}
+
+a {
+    color: #eeeeee;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+hr {
+    border-color: #7FD925;
+    margin: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.head_font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.body_font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Mobile Styles */
+
+#container {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #7FD925;
+    border-radius: 10px;
+    background-color: #204473;
+}
+
+.main_img {
+    width: 50%;
+    border: 2px solid #7FD925;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_img_mul {
+    width: 45%;
+    border: 2px solid #7FD925;
+    border-radius: 10px;
+}
+
+nav {
+    text-align: center;
+    border-bottom: 2px solid #7FD925;
+    border-top: 2px solid #7FD925;
+    margin: 10px;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #010D26;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #7FD925;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    border: 2px solid #7FD925;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #4F0259;
+}
+
+aside {
+    display: flex;
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        padding: 5px;
+        margin: 5px 15px;
+    }
+
+    .multi_col {
+        display: flex;
+        border: 2px solid #7FD925;
+        border-radius: 10px;
+    }
+
+    section {
+        width: 60%;
+    }
+
+    aside {
+        width: 40%;
+        border: 2px solid #7FD925;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 5px;
+        display: block;
+        background-color: #4F0259;
+    }
+
+    .main_img_mul {
+        width: 100%;
+    }
+
+    .main_content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    li {
+        display: inline-block;
+    }
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+}
